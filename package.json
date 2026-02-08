@@ -1,0 +1,28 @@
+{
+  "name": "discord-moderation-bot",
+  "version": "1.0.0",
+  "description": "Advanced Discord Moderation Bot with logging and statistics",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "register": "node register-commands.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "moderation",
+    "discord.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.16.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
